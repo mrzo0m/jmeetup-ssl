@@ -23,7 +23,7 @@ add to server.xml (ibm liberty porofile) this
 ```
 
 
-Self sign cert chain can be generate by openssl utility like this:
+Self sign cert chain can be generate by `openssl` Conf files in conf dir. Example:
 ```
 openssl genrsa -out ca-privkey.pem 2048 
  
