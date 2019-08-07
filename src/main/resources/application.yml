@@ -1,0 +1,15 @@
+---
+server:
+  port: 9080
+  ssl:
+    key-store-type: PKCS12
+    enabled-protocols: TLSv1.2
+    client-auth: need
+    key-store-provider: IBMJSSE2
+    enabled: true
+---
+logging:
+  level:
+    org.springframework: WARN
+    org.apache: WARN
+    ru.st.com.webclient: TRACE
